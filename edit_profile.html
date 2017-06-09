@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<title>Edit Profile | Instaclone</title>
+</head>
+<body>
+	<!-- tagName.className#idName -->
+	<header class="Header">
+		<div class="Header__Column">
+			<a href="feed.html">
+			<img src="images/logo2.png" alt="Logo" class="Column__Logo" />
+		</div>
+		<div class="Header__Column"></div>
+			<input type="text" class="Column__Input" placeholder="Search">
+		<div class="Header__Column">
+		<!-- a.Column__Link*3>i.fa -->
+			<a href="explore.html" class="Column__Link"><i class="fa fa-compass"></i></a>
+			<a href="#" class="Column__Link"><i class="fa fa-heart-o"></i></a>
+			<a href="profile.html" class="Column__Link"><i class="fa fa-user-circle-o"></i></a>
+		</div>
+	</header>
+	
+	<main>
+		<div class="Main">
+			<div class="Main__User">
+				<div class="User__Image">
+					<a href="profile.html" class="Image__Link">
+					<img src="images/apple.png" alt="">
+					</a>
+				</div>
+				<div class="User__ID">
+					<h2>choinun_g</h2>
+				</div>
+			</div>
+			<div class="Main__Bio">
+				<div class="Bio">
+					<label>Name</label>
+					<input type="text" placeholder="공부쟁이...">
+				</div>
+				<div class="Bio">
+					<label>Username</label>
+					<input type="text" placeholder="choinun_g">
+				</div>
+				<div class="Bio">
+					<label>Website</label>
+					<input type="text">
+				</div>
+				<div class="Bio">
+					<label>Bio</label>
+					<textarea></textarea>
+				</div>
+			</div>
+			<div class="Main__Private">
+				<div class="Private">
+					<h4>Private Information</h4>
+				</div>
+				<div class="Private">
+					<label>Email</label>
+					<input type="text" placeholder="zzang_bin@naver.com">
+				</div>
+				<div class="Private">
+					<label>Phone Number</label>
+					<input type="text" placeholder="+82 10-9415-4941">
+				</div>
+				<div class="Private">
+					<label>Gender</label>
+					<select class="Private__Gender">
+						<option value="1">Male</option>
+						<option value="2">Female</option>
+						<option value="3">Not Specified</option>
+					</select>
+				</div>
+				<div class="Private">
+					<label>Similar Account Suggestions</label>
+					<input type="checkbox" checked>
+					<span>Include your account when recommending similar accounts people might want to follow.[?]</span>
+				</div>
+			</div>
+			<div class="Main__Submit">
+				<div class="Submit__Button">
+					<button class="Button__Submit">Submit</button>
+				</div>
+				<div class="Submit__Temp">
+					<a href="#" class="Submit__Char">Temporarily disable my account</a>
+				</div>
+				
+			</div>
+		</div>
+	</main>
+</body>
+</html>
