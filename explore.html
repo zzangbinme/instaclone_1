@@ -1,81 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<title>Explore | Instaclone</title>
+    <meta charset="UTF-8">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <title>Explore | Instaclone</title>
 </head>
 <body>
-	<!-- tagName.className#idName -->
-	<header class="Header">
-		<div class="Header__Column">
-			<a href="feed.html">
-			<img src="images/logo2.png" alt="Logo" class="Column__Logo" />
-		</div>
-		<div class="Header__Column"></div>
-			<input type="text" class="Column__Input" placeholder="Search">
-		<div class="Header__Column">
-		<!-- a.Column__Link*3>i.fa -->
-			<a href="explore.html" class="Column__Link"><i class="fa fa-compass"></i></a>
-			<a href="#" class="Column__Link"><i class="fa fa-heart-o"></i></a>
-			<a href="profile.html" class="Column__Link"><i class="fa fa-user-circle-o"></i></a>
-		</div>
-	</header>
+    <nav class="Navigation" role="navigation">
+        <div class="Navigation__Wrapper">
+            <div class="Navigation__Columns">
+                <div class="Navigation__Column">
+                    <a href="feed.html">
+                        <img src="images/headerImage.png" alt="Logo" class="Column__Logo">
+                    </a>
+                </div>
+                <div class="Navigation__Column Navigation__Search-Column">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="text" class="Colum__Input" placeholder="Search">
+                </div>
+                <div class="Navigation__Column Navigation__Links">
+                    <a href="explore.html" class="Column__Link">
+                        <i class="fa fa-compass fa-2x"></i>
+                    </a>
+                    <a href="#" class="Column__Link">
+                        <i class="fa fa-heart-o fa-2x"></i>
+                    </a>
+                    <a href="profile.html" class="Column__Link">
+                        <i class="fa fa-user-o fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>    
+    </nav>
+    
+    <main role="main" class="">
+            <div class="Explore-Container u-MaxWidthComponent">
+                <section class="Explore u-Card">
+                    <h4 class="Explore__Title">Discover People</h4>
+                    <ul class="Explore__List">
+                        <li class="Explore__User">
+                            <div class="Explore__User-Info">
+                                <a href="profile.html" class="Explore__Avatar-Container">
+                                    <img src="images/avatar.jpg" alt="" class="Explore__Avatar">
+                                </a>
+                                <div class="Explore__User-Details">
+                                    <a href="profile.html" class="Explore__Link u-Bold-Text">serranoarevalo</a>
+                                    <span class="Explore__User-Name">Nicolás Serrano Arévalo</span>
+                                </div>
+                            </div>
+                            <div class="Explore__Actions">
+                                <a href="profile.html" class="Explore__Follow-Button">Follow</a>
+                            </div>
+                        </li>
+                        <li class="Explore__User">
+                            <div class="Explore__User-Info">
+                                <a href="profile.html" class="Explore__Avatar-Container">
+                                    <img src="images/avatar.jpg" alt="" class="Explore__Avatar">
+                                </a>
+                                <div class="Explore__User-Details">
+                                    <a href="profile.html" class="Explore__Link u-Bold-Text">serranoarevalo</a>
+                                    <span class="Explore__User-Name">Nicolás Serrano Arévalo</span>
+                                </div>
+                            </div>
+                            <div class="Explore__Actions">
+                                <a href="profile.html" class="Explore__Follow-Button">Follow</a>
+                            </div>
+                        </li>
+                        <li class="Explore__User">
+                            <div class="Explore__User-Info">
+                                <a href="profile.html" class="Explore__Avatar-Container">
+                                    <img src="images/avatar.jpg" alt="" class="Explore__Avatar">
+                                </a>
+                                <div class="Explore__User-Details">
+                                    <a href="profile.html" class="Explore__Link u-Bold-Text">serranoarevalo</a>
+                                    <span class="Explore__User-Name">Nicolás Serrano Arévalo</span>
+                                </div>
+                            </div>
+                            <div class="Explore__Actions">
+                                <a href="profile.html" class="Explore__Follow-Button">Follow</a>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+    </main>
+    <footer class="Footer">
+        <nav class="Footer__Nav">
+            <ul class="Footer__List">
+                <li class="Footer__Item">
+                    <a href="#" class="Footer__Link">About us</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Support</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Blog</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Press</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Api</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Jobs</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Privacy</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Terms</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Directory</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Language</a>
+                </li>
+            </ul>
+        </nav>
+        <span class="Footer__Copyright">© 2017 Instagram</span>
+    </footer>
 
-	<main>
-		<div class="Main__Title">
-			<h2>Discover People</h2>
-		</div>
-		<div class="Main__Person">
-			<div class="Person__Image">
-				<img src="images/wakeupearly.jpg">
-			</div>
-			<div class="Person__Name">
-				<div class="Name__ID">
-					<span>donghun0424</span>
-				</div>
-				<div class="Name__Real">
-					<span>Dong Hun Lee</span>
-				</div>
-			</div>
-			<div class="Person_Button">
-				<button>Follow</button>
-			</div>
-		</div>
-		
-		<div class="Main__Person">
-			<div class="Person__Image">
-				<img src="images/google.png">
-			</div>
-			<div class="Person__Name">
-				<div class="Name__ID">
-					<span>dr.yongjun_shin</span>
-				</div>
-				<div class="Name__Real">
-					<span>Young Jun Shin</span>
-				</div>
-			</div>
-			<div class="Person_Button">
-				<button>Follow</button>
-			</div>
-		</div>
-		<div class="Main__Person">
-			<div class="Person__Image">
-				<img src="images/apple.png">
-			</div>
-			<div class="Person__Name">
-				<div class="Name__ID">
-					<span>yesstellapark</span>
-				</div>
-				<div class="Name__Real">
-					<span>Yeseul stella</span>
-				</div>
-			</div>
-			<div class="Person_Button">
-				<button>Follow</button>
-			</div>
-		</div>
-
-	</main>
 </body>
 </html>

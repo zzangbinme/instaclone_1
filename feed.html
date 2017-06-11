@@ -1,50 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<title>Feed | Instaclone</title>
+    <meta charset="UTF-8">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+=======
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+>>>>>>> b4aa6ca429a4c2a122c0dcf7199dfaa021281f25
+=======
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+>>>>>>> 6b4cab2b2ebc80161f17d18ef3335cc4b4e1d39f
+    <title>Feed | Instaclone</title>
 </head>
 <body>
-	<!-- tagName.className#idName -->
-	<header class="Header">
-		<div class="Header__Column">
-			<img src="images/logo2.png" alt="Logo" class="Column__Logo" />
-		</div>
-		<div class="Header__Column"></div>
-			<input type="text" class="Column__Input" placeholder="Search">
-		<div class="Header__Column">
-		<!-- a.Column__Link*3>i.fa -->
-			<a href="explore.html" class="Column__Link"><i class="fa fa-compass"></i></a>
-			<a href="#" class="Column__Link"><i class="fa fa-heart-o"></i></a>
-			<a href="profile.html" class="Column__Link"><i class="fa fa-user-circle-o"></i></a>
-		</div>
-	</header>
-	<main>
-		<div class="Main__Column">
-			<img src="images/wakeupearly.jpg" class="Column__Image" />
-			<a href="profile.html" class="Column__Link">Jeongbin</a>
-		</div>
-		<div class="Main__Column">
-			<img src="images/girls.png" class="Column__Image" />
-		</div>
-		<div class="Main__Column">
-			<div class="Column__SubColumn">
-				<a href="#" class="Column__Link"><i class="fa fa-heart-o"></i></a>
-				<a href="#" class="Column__Link"><i class="fa fa-comment-o"></i></a>
-			</div>
-			<div class="Column__SubColumn">
-				<span>242 likes</span>
-			</div>
-			<div class="Column__SubColumn">
-				<p class="SubColumn__Text">girls are nice!! :)</p>
-				<!-- <p class="SubColumn__Text">lorem</p> -->
-			</div>
-			<div class="Column__SubColumn">
-				<input type="text" placeholder="Add a comment..." required="true" />
-			</div>
-		</div>
+    <nav class="Navigation" role="navigation">
+        <div class="Navigation__Wrapper">
+            <div class="Navigation__Columns">
+                <div class="Navigation__Column">
+                    <a href="feed.html">
+                        <img src="images/headerImage.png" alt="Logo" class="Column__Logo">
+                    </a>
+                </div>
+                <div class="Navigation__Column Navigation__Search-Column">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="text" class="Colum__Input" placeholder="Search">
+                </div>
+                <div class="Navigation__Column Navigation__Links">
+                    <a href="explore.html" class="Column__Link">
+                        <i class="fa fa-compass fa-2x"></i>
+                    </a>
+                    <a href="#" class="Column__Link">
+                        <i class="fa fa-heart-o fa-2x"></i>
+                    </a>
+                    <a href="profile.html" class="Column__Link">
+                        <i class="fa fa-user-o fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>    
+    </nav>
+    
+    <main role="main">
 
-	</main>
+        <section class="Feed u-MaxWidthComponent">
+
+            <article class="Feed__Photo Photo u-Card">
+
+                <header class="Photo__Header">
+                    <a href="profile.html" class="Header__Avatar-Container">
+                        <img src="images/avatar.jpg" alt="serranoarevalo" class="Header__Avatar" />
+
+                    </a>
+                    <a href="profile.html" class="Header__Username u-Bold-Text">
+                        serranoarevalo
+                    </a>
+                </header>
+
+                <div class="Photo__File-Container">
+                    <img src="images/imageOne.jpg" alt="" class="Photo__File">
+                </div>
+
+                <div class="Photo__Meta">
+                    <section class="Photo__Buttons">
+                        <div class="Photo__Button">
+                            <i class="fa fa-heart-o fa-lg"></i>
+                        </div>
+                        <div class="Photo__Button">
+                            <i class="fa fa-comment-o fa-lg"></i>
+                        </div>
+                    </section>
+
+                    <section class="Photo__Likes-Container">
+                        <span class="Photo__Likes u-Bold-Text">222 likes</span>
+                    </section>
+
+                    <div class="Photo__Comments">
+                        <ul class="Photo__Comment-List">
+                            <li class="Photo__Comment Comment">
+                                <a href="profile.html" class="Comment__Username u-Bold-Text">serranoarevalo</a>
+                                <span class="Comment__Content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <section class="Photo__Time-Ago-Container">
+                        <time datetime="2017-06-10T08:43:09.000Z" title="Jun 10, 2017" class="Photo__TimeAgo">22 minutes ago</time>
+                    </section>
+
+                    
+                    <section class="Photo__Add-Comment">
+                        <form action="POST" class="Photo__Form">
+                            <textarea name="comment" id="" class="Photo__Input" placeholder="Add a comment..."></textarea>
+                        </form>
+                        <div class="Photo__More-Actions">
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+        <footer class="Footer">
+            <nav class="Footer__Nav">
+                <ul class="Footer__List">
+                    <li class="Footer__Item">
+                        <a href="#" class="Footer__Link">About us</a>
+                    </li>
+                    <li class="Footer__Item">
+                        <a href="" class="Footer__Link">Support</a>
+                    </li>
+                    <li class="Footer__Item">
+                        <a href="" class="Footer__Link">Blog</a>
+                    </li>
+                    <li class="Footer__Item">
+                        <a href="" class="Footer__Link">Press</a>
+                    </li>
+                    <li class="Footer__Item">
+                        <a href="" class="Footer__Link">Api</a>
+                    </li>
+                    <li class="Footer__Item">
+                        <a href="" class="Footer__Link">Jobs</a>
+                    </li>
+                    <li class="Footer__Item">
+                        <a href="" class="Footer__Link">Privacy</a>
+                    </li>
+                    <li class="Footer__Item">
+                        <a href="" class="Footer__Link">Terms</a>
+                    </li>
+                    <li class="Footer__Item">
+                        <a href="" class="Footer__Link">Directory</a>
+                    </li>
+                    <li class="Footer__Item">
+                        <a href="" class="Footer__Link">Language</a>
+                    </li>
+                </ul>
+            </nav>
+            <span class="Footer__Copyright">© 2017 Instagram</span>
+        </footer>
 </body>
 </html>

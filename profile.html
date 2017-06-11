@@ -1,96 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<title>Profile | Instaclone</title>
+    <meta charset="UTF-8">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <title>Profile | Instaclone</title>
 </head>
 <body>
-	<!-- tagName.className#idName -->
-	<header class="Header">
-		<div class="Header__Column">
-			<a href="feed.html">
-			<img src="images/logo2.png" alt="Logo" class="Column__Logo" />
-		</div>
-		<div class="Header__Column"></div>
-			<input type="text" class="Column__Input" placeholder="Search">
-		<div class="Header__Column">
-		<!-- a.Column__Link*3>i.fa -->
-			<a href="explore.html" class="Column__Link"><i class="fa fa-compass"></i></a>
-			<a href="#" class="Column__Link"><i class="fa fa-heart-o"></i></a>
-			<a href="profile.html" class="Column__Link"><i class="fa fa-user-circle-o"></i></a>
-		</div>
-	</header>
-	
-	<main>
-		<div class="User">
-			<div class="User__Image">
-				<a href="profile.html" class="Image_Person">
-					<img src="images/logo.jpeg" alt="" class="Image_Specific">
-				</a>
-			</div>
-			<div class="User__Profile">
-				<div class="Profile__Name">
-				<div class="Name__ID">
-					<span>serranoarevalo</span>
-				</div>
-				<div class="Name__EditProfile-Button">
-					<a href="edit_profile.html" class="Button__Link">Edit Profile</a>
-				</div>
-				<div class="Name__Icon">
-					<a href="#" class="Column__Link"><i class="fa fa-cog"></i></a>
-				</div>
-					
-				</div>
-				<div class="Profile_Number">
-				<div class="Number__Post">
-					<span>312 posts</span>
-				</div>
-				<div class="Number__Followers">
-					<span>4,393 followers</span>
-				</div>
-				<div class="Number__Following">
-					<span>47 followings</span>
-				</div>
-				</div>
-				<div class="Profile__Specific">
-					<div class="Specific__Images">
-						<div class="Images__1">
-							<img src="images/apple.png">
-						</div>
-						<div class="Images__2">
-							<img src="images/google.png">
-						</div>
-						<div class="Images__3">
-							<img src="images/logo2.png">
-						</div>
-					</div>
-					<div class="Specific__Images">
-						<div class="Images__1">
-							<img src="images/apple.png">
-						</div>
-						<div class="Images__2">
-							<img src="images/google.png">
-						</div>
-						<div class="Images__3">
-							<img src="images/logo2.png">
-						</div>
-					</div>
-					<div class="Specific__Images">
-						<div class="Images__1">
-							<img src="images/apple.png">
-						</div>
-						<div class="Images__2">
-							<img src="images/google.png">
-						</div>
-						<div class="Images__3">
-							<img src="images/logo2.png">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="Image"></div>
-	</main>
+    <nav class="Navigation" role="navigation">
+        <div class="Navigation__Wrapper">
+            <div class="Navigation__Columns">
+                <div class="Navigation__Column">
+                    <a href="feed.html">
+                        <img src="images/headerImage.png" alt="Logo" class="Column__Logo">
+                    </a>
+                </div>
+                <div class="Navigation__Column Navigation__Search-Column">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="text" class="Colum__Input" placeholder="Search">
+                </div>
+                <div class="Navigation__Column Navigation__Links">
+                    <a href="explore.html" class="Column__Link">
+                        <i class="fa fa-compass fa-2x"></i>
+                    </a>
+                    <a href="#" class="Column__Link">
+                        <i class="fa fa-heart-o fa-2x"></i>
+                    </a>
+                    <a href="profile.html" class="Column__Link">
+                        <i class="fa fa-user-o fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>    
+    </nav>
+    
+    <main role="main">
+
+        <div class="Profile-Container u-MaxWidthComponent">
+                    <article class="Profile">
+
+            <header class="Profile__Header">
+
+                <div class="Profile__Avatar">
+
+                    <div class="Profile__Avatar-Container">
+                        <img src="images/avatar.jpg" alt="" class="Profile__Avatar-Picture" />
+                    </div>
+
+                </div>
+                
+                <div class="Profile__Info">
+
+                        <div class="Profile__Info-Section">
+                            
+                            <span class="Profile__Title">serranoarevalo</span>
+
+                            <a href="edit-profile.html" class="Profile__Edit-Button">Edit Profile</a>
+
+                            <i class="fa fa-cog fa-lg"></i>
+
+                        </div>
+
+                        <div class="Profile__Info-Section">
+
+                                <ul class="Profile__Data-List">
+                                    <li class="Profile__Data-Item">
+                                        <span class="Profile__Data-Number u-Bold-Text">234</span>
+                                        posts
+                                    </li>
+                                    <li class="Profile__Data-Item">
+                                        <span class="Profile__Data-Number u-Bold-Text">4,393 </span>
+                                        followers
+                                    </li>
+                                    <li class="Profile__Data-Item">
+                                        <span class="Profile__Data-Number u-Bold-Text">48 </span>
+                                        following
+                                    </li>
+                                </ul>
+
+                        </div>
+
+                        <div class="Profile__Description">
+                            <span class="Profile__Full-Name u-Bold-Text">Nicolás Serrano</span>
+                            <span class="Profile__Description-Text"> Traveling the world forever. Previously: Chiang Mai, Thailand 🇹🇭 Now: Bagan, Myanmar 🇲🇲 Next: Seoul, South Korea 🇰🇷</span>
+                            <a href="http://serranoarevalo.com" class="Profile__Link u-Bold-Text">serranoarevalo.com</a>
+                        </div>
+
+                </div>
+
+            </header>
+
+
+            <div class="Profile__Grid">
+                
+                    <a href="image-detail.html" class="Profile__Grid-Item">
+                        
+                        <div class="Profile__Photo-Container">
+
+                            <img src="images/imageOne.jpg" class="Profile__Photo" />
+
+                        </div>
+
+                        <div class="Profile__Photo-Numbers">
+                            <div class="Profile__Photo-Number">
+                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                458
+                            </div>
+                            <div class="Profile__Photo-Number">
+                                <i class="fa fa-comment fa-2x" aria-hidden="true"></i>
+                                30
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="image-detail.html" class="Profile__Grid-Item">
+                        
+                        <div class="Profile__Photo-Container">
+
+                            <img src="images/imageTwo.jpg" class="Profile__Photo" />
+
+                        </div>
+
+                        <div class="Profile__Photo-Numbers">
+                            <div class="Profile__Photo-Number">
+                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                458
+                            </div>
+                            <div class="Profile__Photo-Number">
+                                <i class="fa fa-comment fa-2x" aria-hidden="true"></i>
+                                30
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="image-detail.html" class="Profile__Grid-Item">
+                        
+                        <div class="Profile__Photo-Container">
+
+                            <img src="images/imageThree.jpg" class="Profile__Photo" />
+
+                        </div>
+
+                        <div class="Profile__Photo-Numbers">
+                            <div class="Profile__Photo-Number">
+                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                458
+                            </div>
+                            <div class="Profile__Photo-Number">
+                                <i class="fa fa-comment fa-2x" aria-hidden="true"></i>
+                                30
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="image-detail.html" class="Profile__Grid-Item">
+                        
+                        <div class="Profile__Photo-Container">
+
+                            <img src="images/imageThree.jpg" class="Profile__Photo" />
+
+                        </div>
+
+                        <div class="Profile__Photo-Numbers">
+                            <div class="Profile__Photo-Number">
+                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                458
+                            </div>
+                            <div class="Profile__Photo-Number">
+                                <i class="fa fa-comment fa-2x" aria-hidden="true"></i>
+                                30
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="image-detail.html" class="Profile__Grid-Item">
+                        
+                        <div class="Profile__Photo-Container">
+
+                            <img src="images/imageThree.jpg" class="Profile__Photo" />
+
+                        </div>
+
+                        <div class="Profile__Photo-Numbers">
+                            <div class="Profile__Photo-Number">
+                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                458
+                            </div>
+                            <div class="Profile__Photo-Number">
+                                <i class="fa fa-comment fa-2x" aria-hidden="true"></i>
+                                30
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="image-detail.html" class="Profile__Grid-Item">
+                        
+                        <div class="Profile__Photo-Container">
+
+                            <img src="images/imageThree.jpg" class="Profile__Photo" />
+
+                        </div>
+
+                        <div class="Profile__Photo-Numbers">
+                            <div class="Profile__Photo-Number">
+                                <i class="fa fa-heart fa-2x" aria-hidden="true"></i>
+                                458
+                            </div>
+                            <div class="Profile__Photo-Number">
+                                <i class="fa fa-comment fa-2x" aria-hidden="true"></i>
+                                30
+                            </div>
+                        </div>
+                    </a>
+
+            </div>
+
+
+        </article>
+        </div>
+
+    </main>
+
+    <footer class="Footer">
+        <nav class="Footer__Nav">
+            <ul class="Footer__List">
+                <li class="Footer__Item">
+                    <a href="#" class="Footer__Link">About us</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Support</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Blog</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Press</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Api</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Jobs</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Privacy</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Terms</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Directory</a>
+                </li>
+                <li class="Footer__Item">
+                    <a href="" class="Footer__Link">Language</a>
+                </li>
+            </ul>
+        </nav>
+        <span class="Footer__Copyright">© 2017 Instagram</span>
+    </footer>
+
 </body>
 </html>

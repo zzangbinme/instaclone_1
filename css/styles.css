@@ -1,0 +1,1164 @@
+/* General Styles */
+
+body{
+    background-color: #fafafa;
+    font-size: 14px;
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans';
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+/* Helper Classes */
+
+.u-Centered-Container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.u-Bold-Text{
+    font-weight: 600;
+}
+
+.u-Card{
+    width:60%;
+    border:1px solid #e6e6e6;
+    border-radius: 4px;
+    max-width: 600px;
+    background-color: white;
+}
+
+.u-MaxWidthComponent{
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+/* <Login> */
+
+.LogIn{
+    width: 85%;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.LogIn__Column{
+    width:40%;
+    max-width: 350px;
+}
+
+.Login__Column--Bigger{
+    width:40%;
+    max-width: none;
+}
+
+
+.Login__Section{
+    background-color: white;
+    border:1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+.Upper__Section{
+    padding:20px 40px;
+}
+
+.LogIn__Column #LogIn__Image{
+    width: 400px;
+    max-width: 453px;
+}
+
+.Section__Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Section__Logo .Login__Logo{
+    width:175px;
+}
+
+.Login__Form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    position:relative;
+}
+
+.Login__Form input{
+    display: block;
+    margin-bottom: 6px;
+    padding:9px 8px 7px 8px;
+    border:1px solid #efefef;
+    border-radius: 3px;
+}
+
+.Login__Form input:focus{
+    outline:none;
+    border-color:#b2b2b2;
+}
+
+.Login__Form input[type="submit"]{
+    background-color:#3897f0;
+    border:0;
+    padding:5px 0px;
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+    cursor:pointer;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+.Login__Form .Login__Link{
+    position: absolute;
+    right:20px;
+    top:45px;
+    font-size: 10px;
+    text-decoration:none;
+    color:#003569;
+}
+
+.Login__Divider{
+    margin:8px 0;
+    color:#999;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    background-color: white;
+}
+
+.Login__Divider:before{
+    content:'';
+    position: absolute;
+    width:40%;
+    height:1px;
+    left:0;
+    top:7.5px;
+    background-color: #999;
+}
+
+.Login__Divider:after{
+    content:'';
+    position: absolute;
+    width:40%;
+    height:1px;
+    right:0;
+    top:7.5px;
+    background-color: #999;
+}
+
+.Login__Facebook-Link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:#385185;
+}
+
+.Login__Facebook-Link i{
+    padding-right:5px;
+}
+
+ .Account-Creation__Section{
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .Account-Creation__Section a{
+    text-decoration:none;
+    color:#3897f0;
+    padding-left:7px;
+ }
+
+ .Login__Section--Transparent{
+    background-color: transparent;
+    border:none;
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.Login__Section--Transparent .Login__Text{
+    margin-bottom: 10px;
+}
+
+ .Login__Section--Transparent .Login__Appstores{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-top: 10px;
+ }
+ .Login__Appstores .Login__App-Button{
+    height:40px;
+    width: auto; 
+ }
+
+/*.Login__Appstores .Login__App-Button:last-child{
+    margin-left: 10px;
+}*/
+
+/* </Login> */
+
+/* <Footer> */
+
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    width:95%;
+    margin:0 auto;
+    margin-top:40px;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+
+.Footer__Nav{
+    width:80%;
+}
+
+.Footer__Nav .Footer__List{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.Footer__Item .Footer__Link{
+    color:#003569;
+    font-weight: 600;
+    text-decoration:none;
+}
+
+.Footer__Copyright{
+    color:#999;
+    font-weight: 600;
+}
+
+/* </Footer> */
+
+/* <Navigation> */
+
+.Navigation{
+    height:77px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    background:#fafafa;
+=======
+    background:white;
+>>>>>>> b4aa6ca429a4c2a122c0dcf7199dfaa021281f25
+=======
+    background:white;
+>>>>>>> 6b4cab2b2ebc80161f17d18ef3335cc4b4e1d39f
+    border-bottom:1px solid #efefef;
+    display: flex;
+    align-items: center;
+    padding:0 40px;
+    margin-bottom:40px;
+}
+
+.Navigation__Wrapper{
+    width:100%;
+}
+
+.Navigation .Navigation__Columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Navigation .Navigation__Columns .Navigation__Column:first-child{
+    margin-right:auto;
+    width:33%;
+}
+
+.Navigation .Navigation__Columns .Navigation__Column:last-child{
+    margin-left:auto;
+    width:33%;
+}
+
+.Column__Logo{
+    max-width:120%;
+}
+
+.Navigation__Search-Column{
+    position: relative;
+}
+
+.Navigation__Search-Column input{
+    padding:8px 10px 8px 26px;
+    border:0;
+    border-radius: 5px;
+    font-size:16px;
+    box-sizing: border-box;
+    background: #fafafa;
+    border: solid 1px #dbdbdb;
+    transition: border-color .3s ease-out;
+}
+
+.Navigation__Search-Column input:focus{
+    outline:none;
+    border-color:#3897f0;
+}
+
+.Navigation__Search-Column input::placeholder{
+  font-weight: 400;
+  color:#cacaca;
+  text-align: center;
+}
+
+.Navigation__Search-Column i {
+    position: absolute;
+    left:60px;
+    top:12px;
+    color:#cacaca;
+}
+
+.Navigation__Links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Navigation__Links .Column__Link{
+    margin-left:30px;
+    text-decoration: none;
+    color:#8e8e8e;
+}
+
+/* </Navigation> */
+
+/*<Feed>*/
+
+.Feed{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*</Feed>*/
+
+
+/* <Photo> */
+
+.Photo{
+    width:60%;
+    border:1px solid #e6e6e6;
+    border-radius: 4px;
+    max-width: 600px;
+    background-color: white;
+}
+
+.Photo__Header{
+    padding:15px;
+    display: flex;
+    align-items: center;
+}
+
+.Photo__Header .Header__Avatar-Container{
+    height:30px;
+    width:30px;
+    display: block;
+    margin-right: 10px;
+    background-color:rgba(255, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius:50%;
+}
+
+.Header__Avatar-Container .Header__Avatar{
+    max-width: 100%;
+}
+
+.Photo__Header .Header__Username{
+    color:black;
+}
+
+.Photo .Photo__File-Container{
+    width:100%;
+}
+
+.Photo__File-Container .Photo__File{
+    min-width:100%;
+}
+
+.Photo .Photo__Meta{
+    padding:15px;
+    padding-bottom: 0;
+}
+
+.Photo__Meta .Photo__Buttons{
+    display: flex;
+    margin-bottom:10px;
+}
+
+.Photo__Buttons .Photo__Button{
+    cursor:pointer;
+}
+
+.Photo__Buttons .Photo__Button:first-child{
+    margin-right:10px;
+}
+
+.Photo__Comment-List{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    margin-top:10px;
+}
+
+.Photo__Comment .Comment__Username{
+    color:inherit;
+}
+
+.Photo .Photo__Time-Ago-Container{
+    margin:5px 0;
+    padding-bottom:15px; 
+    border-bottom:1px solid #efefef;
+}
+
+.Photo .Photo__TimeAgo{
+    font-size: 10px;
+    color:#999;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+}
+
+.Photo__Add-Comment{
+       position: relative;
+       padding:16px 0;
+}
+
+.Photo__Add-Comment .Photo__Form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Photo__Add-Comment .Photo__Input{
+    max-height: 80px;
+    resize:none;
+    width:100%;
+    box-sizing: border-box;
+    font-size:14px;
+    border:0;
+    color:black;
+    background-color: transparent;
+    display: flex;
+    height:18px;
+}
+
+.Photo__Add-Comment .Photo__Input:focus{
+    outline:none;
+}
+
+.Photo__Add-Comment .Photo__Input::placeholder{
+    color:#b5b5b5;
+}
+
+.Photo__More-Actions{
+    position: absolute;
+    top:0;
+    right:25px;
+    top:15px;
+    color:#b5b5b5;
+}
+
+/* </Photo> */
+
+
+/* <Explore> */
+
+.Explore-Container{
+    display: flex;
+    justify-content: center;
+}
+
+.Explore-Container .Explore{
+}
+
+.Explore .Explore__Title{
+    padding:16px;
+    padding-bottom:10px;
+    display:block;
+    text-transform: uppercase;
+    color:#999;
+    margin:0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.Explore__List{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+.Explore__List .Explore__User{
+    padding:16px;
+    border-bottom:1px solid #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Explore__List .Explore__User:last-child{
+    border-bottom:0;
+}
+
+.Explore__User-Info{
+    display: flex;
+    align-items: center;
+}
+
+.Explore__User-Info .Explore__Avatar-Container{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+ .Explore__Avatar-Container .Explore__Avatar{
+    max-width: 100%;
+ }
+
+ .Explore__User-Info .Explore__User-Details {
+        display: flex;
+        flex-direction: column;
+         margin-left:20px;
+ }
+
+ .Explore__Actions .Explore__Follow-Button{
+    display: block;
+    padding:5px 10px;
+    border-radius: 5px;
+    background-color:#3897f0;
+    color:white;
+    font-weight: 600;
+}
+/*</Explore>*/
+
+/*<Profile>*/
+
+.Profile-Container{
+    display: flex;
+    justify-content: center;
+}
+
+.Profile{
+    width:90%;
+    max-width: 1000px;
+}
+
+.Profile__Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:50px;
+}
+
+.Profile__Avatar {
+    width:40%;
+}
+.Profile__Info{
+    width:80%;
+}
+
+.Profile__Avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile__Avatar-Container{
+    height: 142px;
+    width:142px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Profile__Avatar-Picture{
+    max-width: 100%;
+}
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6b4cab2b2ebc80161f17d18ef3335cc4b4e1d39f
+.Profile__Link{
+    display: block;
+    margin-top: 10px;
+}
+
+<<<<<<< HEAD
+>>>>>>> b4aa6ca429a4c2a122c0dcf7199dfaa021281f25
+=======
+>>>>>>> 6b4cab2b2ebc80161f17d18ef3335cc4b4e1d39f
+.Profile__Info-Section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+.Profile__Title{
+    font-size: 26px;
+}
+
+.Profile__Edit-Button{
+    border-radius: 5px;
+    padding:5px 10px;
+    border:1px solid #efefef;
+    transition: all .5s ease-out;
+}
+
+.Profile__Edit-Button:hover{
+    background-color:#3897f0;
+    color:white;
+}
+
+.Profile__Data-List{
+    padding:0;
+    margin:0;
+    margin-top:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width:85%;
+}
+
+.Profile__Data-Number{
+    padding-right:5px;
+}
+
+.Profile__Data-Item{
+    display: flex;
+}
+
+.Profile__Description{
+    margin-top:10px;
+}
+
+.Profile__Full-Name{
+    padding-right:8px;
+}
+
+.Profile__Grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.Profile__Grid .Profile__Grid-Item{
+    width:280px;
+    display: block;
+    height:280px;
+    margin-bottom:30px;
+    position: relative;
+
+}
+
+.Profile__Grid-Item .Profile__Photo-Container{
+    max-width: 100%;
+    width:100%;
+}
+
+.Profile__Photo{
+    max-width: 100%;
+}
+
+
+.Profile__Photo-Numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    opacity: 0;
+    font-weight: 600;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    width:280px;
+    height:280px;
+    transition: opacity .5s ease-out;
+    top:0;
+    box-sizing:border-box;
+}
+
+.Profile__Grid-Item:hover .Profile__Photo-Numbers{
+    opacity: 1;
+}
+
+.Profile__Photo-Numbers .Profile__Photo-Number{
+    display: flex;
+    align-items: center;
+}
+
+.Profile__Photo-Numbers .Profile__Photo-Number i {
+    padding-right: 10px;
+}
+
+.Profile__Photo-Numbers .Profile__Photo-Number:last-child{
+    margin-left: 30px;
+}
+
+
+/*</Profile>*/
+
+/* </Edit-Profile> */
+
+.Edit-Profile__Container{
+    display: flex;
+    justify-content: center;
+}
+
+.Edit-Profile{
+    width:65%;
+    max-width: none;
+}
+
+/* </Edit-Profile> */
+
+/* <Image-Detail> */
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+.Image-Detail{
+    width:95%;
+    height: 100%;
+    border:1px solid #e6e6e6;
+    border-radius: 4px;
+    /*max-width: 600px;*/
+    background-color: white;
+    margin:0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Image-Detail__Photo-Container{
+    width: 60%;
+    margin-right: 20px;
+}
+
+.Image-Detail__Photo{
+    height: 100%;
+    width: 100%; 
+
+}
+
+.Image-Detail__Information{
+    /*margin-left: 30px;*/
+    padding-right: 20px;
+    width: 40%;
+=======
+=======
+>>>>>>> 6b4cab2b2ebc80161f17d18ef3335cc4b4e1d39f
+
+.Image-Detail-Container{
+    width:90%;
+}
+
+.Image-Detail{
+    display: flex;
+    align-items:stretch;
+    max-height: 598px;
+}
+
+.Image-Detail__Photo-Container{
+    width:70%;
+    overflow: hidden;
+}
+
+.Image-Detail__Photo{
+    min-height:100%;
+}
+
+.Image-Detail__Information{
+    width:40%;
+    padding:20px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+<<<<<<< HEAD
+>>>>>>> b4aa6ca429a4c2a122c0dcf7199dfaa021281f25
+=======
+>>>>>>> 6b4cab2b2ebc80161f17d18ef3335cc4b4e1d39f
+}
+
+.Image-Detail__Header{
+    display: flex;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #efefef;
+}
+
+.Image-Detail__Avatar-Container{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+=======
+=======
+>>>>>>> 6b4cab2b2ebc80161f17d18ef3335cc4b4e1d39f
+    padding-bottom: 20px;
+    border-bottom:1px solid #efefef;
+}
+
+.Image-Detail__Avatar-Container{
+    height:40px;
+    width:40px;
+    overflow: hidden;
+    border-radius: 50%;
+<<<<<<< HEAD
+>>>>>>> b4aa6ca429a4c2a122c0dcf7199dfaa021281f25
+=======
+>>>>>>> 6b4cab2b2ebc80161f17d18ef3335cc4b4e1d39f
+}
+
+.Image-Detail__Avatar{
+    max-width: 100%;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    max-height: 100%;
+=======
+>>>>>>> b4aa6ca429a4c2a122c0dcf7199dfaa021281f25
+=======
+>>>>>>> 6b4cab2b2ebc80161f17d18ef3335cc4b4e1d39f
+}
+
+.Image-Detail__User-Location{
+    display: flex;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.Image-Detail__Link{
+    font-weight: 700;
+}
+
+.Image-Detail__Details{
+    display: block;
+
+
+=======
+    flex-direction:column;
+    margin-left:10px;
+>>>>>>> b4aa6ca429a4c2a122c0dcf7199dfaa021281f25
+=======
+    flex-direction:column;
+    margin-left:10px;
+>>>>>>> 6b4cab2b2ebc80161f17d18ef3335cc4b4e1d39f
+}
+
+.Image-Detail__Comments{
+    list-style-type: none;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:0;
+    margin-top: 14px;
+    /*margin-bottom: 0px;*/
+}
+
+.Image-Detail__Comments a {
+    font-weight: 700;
+    padding-right: 5px;
+}
+
+.Image-Detail__Comment {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Image-Detail__Intro{
+    margin-bottom: 20px;
+}
+
+.Image-Detail__Comment:last-child{
+    margin-bottom: 115px;
+    padding-bottom: 10px;
+}
+
+.Image-Detail__Comment i {
+    color:grey;
+}
+
+.Image-Detail__Comment__Sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Image-Detail__Actions{
+    border-top: 1px solid #efefef;
+    margin: 5px 0;
+    padding-top: 5px;
+}
+
+.Image-Detail__Action{
+    font-size: 24px;
+}
+
+.Image-Detail__Action:last-child{
+    margin-left: 10px;
+}
+
+.Image-Detail__Likes{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.Image-Detail__Date{
+    font-size: 12px;
+    color:#999;
+    letter-spacing: .2px;
+    text-transform: uppercase;
+    margin: 0px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+    font-weight: 600;
+}
+
+.Image-Detail__Add-Comment{
+       position: relative;
+       padding:16px 0 8px 0;
+       margin: 0;
+       margin-bottom: 10px;
+}
+
+.Image-Detail__Add-Comment .Image-Detail__Form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Image-Detail__Add-Comment .Image-Detail__Input{
+    max-height: 80px;
+    resize:none;
+    width:100%;
+    box-sizing: border-box;
+    font-size:14px;
+    border:0;
+    color:black;
+    background-color: transparent;
+    display: flex;
+    height:18px;
+}
+
+.Image-Detail__Add-Comment .Image-Detail__Input:focus{
+    outline:none;
+}
+
+.Image-Detail__Add-Comment .Image-Detail__Input::placeholder{
+    color:#b5b5b5;
+}
+
+.Image-Detail__More-Actions{
+    position: absolute;
+    top:0;
+    right:25px;
+    top:15px;
+    color:black;
+}
+
+/* <Edit-Profile> */
+
+.Main{
+    display: flex;
+    justify-content: center;
+}
+
+.Edit-Profile{
+    width: 100%;
+    height: 100%;
+}
+
+.Edit-Profile__Header{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    align-content: center;
+    margin: 30px 0;
+    margin-left:100px;
+}
+
+.Edit-Profile__Name{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-left: 20px;
+}
+
+.Edit-Profile__Avatar-Container{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Edit-Profile__Avatar{
+    max-width: 100%;
+}
+
+.Edit-Profile__Form-Row{
+    margin: 20px 0;
+    display: flex;
+    justify-content: baseline;
+}
+
+.Edit-Profile__Label{
+    margin-left: 20px;
+    width:120px;
+    font-weight: 700;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.Edit-Profile__Input{
+
+}
+
+
+
+
+
+
+
+/* </Edit-Profile> */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* </Image-Detail> */
+
+
+=======
+=======
+>>>>>>> 6b4cab2b2ebc80161f17d18ef3335cc4b4e1d39f
+    padding:0;
+    margin:0;
+    padding-top:20px;
+    padding-bottom:10px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.Image-Detail__Comment{
+       margin-bottom: 5px;
+}
+
+.Image-Detail__Comment:first-child{
+    margin-bottom: 20px;
+}
+
+.Image-Detail__Comment-Author{
+    margin-right:5px;
+}
+
+.Image-Detail__Actions{
+    border-top:1px solid #efefef;
+    padding-top: 20px;
+    margin-bottom:10px;
+}
+
+.Image-Detail__Action:last-child{
+    margin-left:10px;
+}
+
+.Image-Detail__Likes{
+}
+
+.Image-Detail__Date{
+    margin-top:5px;
+    padding-bottom: 20px;
+    border-bottom:1px solid #efefef;
+}
+
+.Image-Detail__Date h6{
+    text-transform: uppercase;
+    color:#efefef;
+    margin:0;
+}
+
+.Image-Detail__Add-Comment{
+    display: flex;
+    position: relative;
+}
+
+.Image-Detail__Form{
+    width: 100%;
+    
+}
+
+.Image-Detail__Input{
+    resize:none;
+    width:90%;
+    border:0;
+    background:transparent;
+    box-sizing: border-box;
+    max-height: 50px;
+    padding-top: 20px;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.Image-Detail__Input:focus{
+    outline:none;
+}
+
+.Image-Detail__More-Actions{
+    position: absolute;
+    right:0;
+    top:15px;
+}
+
+/* </Image-Detail> */
+<<<<<<< HEAD
+>>>>>>> b4aa6ca429a4c2a122c0dcf7199dfaa021281f25
+=======
+>>>>>>> 6b4cab2b2ebc80161f17d18ef3335cc4b4e1d39f

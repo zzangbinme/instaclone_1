@@ -1,0 +1,53 @@
+<label for="female">Female</label>
+<input id="female" type="radio" name="gender" value="female" />
+
+<label for="male">Male</label>
+<input id="male" type="radio" name="gender" value="male"/>
+
+<label for="name">Name</label>
+<input id="name" type="text" placeholder="Min. 8 letters">
+
+tagName.className#idName
+
+<style type="text/css">
+    /* Animation (transition) Example */
+
+    .ElementIWantToAnimate{
+        nameOfProperty: value;
+        transition: nameOfProperty seconds effect;
+    }
+    .ElementIWantToAnimate:hover{
+        nameOfProperty: differentValue;
+    }
+
+    /* SCSS example */
+
+    @roundButton($width, $color){
+        border-radius:10px;
+        text-transform: uppercase;
+        width: $width;
+        color: $color;
+    }
+
+    .BigButton{
+        @include roundButton(300px, white);
+    }
+
+    .BigButton{
+        border-radius:10px;
+        text-transform: uppercase;
+        width: 300px;
+        color:white;
+    }
+
+    .SmallButton{
+        @include roundButton(100px, blue):
+    }
+
+    .SmallButton{
+        border-radius:10px;
+        text-transform: uppercase;
+        width:100px;
+        color:blue;
+    }
+</style>
